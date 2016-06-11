@@ -1,27 +1,101 @@
 TESTS                                            ARRAYLIST     LINKEDLIST   MAS RAPIDO   
-TEST  1 - Insertar elemento al final             0,001158      0,001280     ARRAYLIST
-TEST  2 - Insertar elemento al inicial           0,002213      0,003972     ARRAYLIST
-TEST  3 - Insertar elemento en el centro         0,016444      0,005773     LINKELIST
-TEST  4 - Borrar elemento final                  0,001392      0,002877     ARRAYLIST
-TEST  5 - Borrar elemento inicial                0,002542      0,001734     LINKELIST
-TEST  6 - Borrar elemento central                0,001871      0,005606     ARRAYLIST
-TEST  7 - Borrar valor de elemento final         0,003361      0,005912     ARRAYLIST
-TEST  8 - Borrar valor de elemento inicial       0,003489      0,003015     LINKELIST
-TEST  9 - Borrar valor de elemento central       0,064328      0,013995     LINKELIST
-TEST 10 - Vaciar lista                           0,015853      0,031618     ARRAYLIST
-TEST 11 - Buscar si existe elemento con funcion  0,032227      0,028571     LINKELIST
-TEST 12 - Buscar si existe elemento sin funcion  0,109181      1,611403     ARRAYLIST
-TEST 13 - Busqueda binaria de elemento           0,003185      0,010604     ARRAYLIST
+TEST  1 - Insertar elemento al final             0,000267      0,000486     ARRAYLIST
+TEST  2 - Insertar elemento al inicial           0,000632      0,000167     LINKEDLIST
+TEST  3 - Insertar elemento en el centro         0,000404      0,000795     ARRAYLIST
+TEST  4 - Borrar elemento final                  0,000119      0,000173     ARRAYLIST
+TEST  5 - Borrar elemento inicial                0,000750      0,000141     LINKEDLIST
+TEST  6 - Borrar elemento central                0,000410      0,000776     ARRAYLIST
+TEST  7 - Borrar valor de elemento final         0,000412      0,000678     ARRAYLIST
+TEST  8 - Borrar valor de elemento inicial       0,000735      0,000229     LINKEDLIST
+TEST  9 - Borrar valor de elemento central       0,005505      0,004369     LINKEDLIST
+TEST 10 - Vaciar lista                           0,001160      0,003641     ARRAYLIST
+TEST 11 - Buscar elemento inicial con funcion    0,000202      0,000285     ARRAYLIST
+ 
+Busqueda elemento inicial: 
+TEST 12 - Busqueda secuencial elemento inicial   0,000122      0,000180     ARRAYLIST
+TEST 13 - Busqueda binaria elemento inicial      0,000359      0,003896     ARRAYLIST
+TEST 14 - Buscar elemento final con funcion      0,008047      0,007759     LINKEDLIST
+ 
+Busqueda elemento final: 
+TEST 15 - Busqueda secuencial elemento final     0,015223      0,345458     ARRAYLIST
+TEST 16 - Busqueda binaria elemento final        0,000393      0,005112     ARRAYLIST
+TEST 17 - Buscar elemento intermedio con funcion 0,003913      0,006266     ARRAYLIST
+ 
+Busqueda elemento intermedio: 
+TEST 18 - Busqueda secuencial elemento intermed  0,007541      0,174623     ARRAYLIST
+TEST 19 - Busqueda binaria elemento intermedio   0,000151      0,004570     ARRAYLIST
+TEST 20 - Buscar elemento inexistent con funcion 0,008044      0,007780     LINKEDLIST
+ 
+Busqueda elemento inexistente: 
+TEST 21 - Busqueda secuencial elemento inexist   0,015808      0,350574     ARRAYLIST
+TEST 22 - Busqueda binaria elemento inexist      0,000435      0,005006     ARRAYLIST
 
 
 Método Ordenación         RANDOM m/s    ORDENADO m/s     INVERSO m/s    REPETIDO m/s   Fastest Array   TEST DE ORDEN   
-BUBBLESORT                  531,1913       1079,3156          0,0261          0,0258      A.REPETIDO      ORDEN OK
-SELECTIONSORT                 9,6117          8,1660          7,5899          8,1934      A.INVERSO       ORDEN OK
-INSERTIONSORT               245,1423        534,8669          0,8772          0,8793      A.INVERSO       ORDEN OK
-QUICKSORT                     5,1885          5,9439          8,1396          4,6898      A.REPETIDO      ORDEN OK
-MERGESORT                     2,0097          1,0507          1,0475          1,0468      A.REPETIDO      ORDEN OK
+BUBBLESORT                  344,1161          0,0225        796,8787          0,0209      A.REPETIDO        ORDEN OK    
+SELECTIONSORT                 9,1438          8,6515          8,7800          8,9411      A.ORDENADO        ORDEN OK    
+INSERTIONSORT               167,0339          0,5926        392,3534          0,5907      A.REPETIDO        ORDEN OK    
+QUICKSORT                     3,1728          5,6773          6,2274          6,6820      A.REPETIDO        ORDEN OK    
+MERGESORT                     0,8228          0,6855          0,6789          0,6371      A.REPETIDO        ORDEN OK    
 Fastest x Ordenacion       MERGESORT       MERGESORT       MERGESORT       MERGESORT 
 
 BUSQUEDAS:
-BUSQUEDA BINARIA          0,00000000       0,01426299       0,00000000       0,00000000       Solo sobre A.Ordenados --> BUSQUEDA SECUENCIAL más rápida       
-BUSQUEDA SECUENCIAL       0,30436366       0,00615101       0,05011545       0,00619420       A.ORDENADO       
+BUSQUEDA BINARIA          0,00000000       0,00117362       0,00000000       0,00000000       Solo sobre A.Ordenados --> BUSQUEDA SECUENCIAL más rápida
+BUSQUEDA SECUENCIAL       0,01000889       0,00046539       0,01459765       0,01443339       A.ORDENADO  
+
+
+BUILD SUCCESSFUL (total time: 3 minutes 5 seconds)
+
+
+__________________________________________________________________________________________________________________________________
+
+
+
+
+TESTS                                            ARRAYLIST     LINKEDLIST   MAS RAPIDO   
+TEST  1 - Insertar elemento al final             0,000285      0,000688     ARRAYLIST
+TEST  2 - Insertar elemento al inicial           0,000647      0,000159     LINKEDLIST
+TEST  3 - Insertar elemento en el centro         0,000393      0,000796     ARRAYLIST
+TEST  4 - Borrar elemento final                  0,000125      0,000192     ARRAYLIST
+TEST  5 - Borrar elemento inicial                0,000736      0,000137     LINKEDLIST
+TEST  6 - Borrar elemento central                0,000411      0,000783     ARRAYLIST
+TEST  7 - Borrar valor de elemento final         0,000480      0,000631     ARRAYLIST
+TEST  8 - Borrar valor de elemento inicial       0,000820      0,000232     LINKEDLIST
+TEST  9 - Borrar valor de elemento central       0,005256      0,004383     LINKEDLIST
+TEST 10 - Vaciar lista                           0,001163      0,003443     ARRAYLIST
+TEST 11 - Buscar elemento inicial con funcion    0,000197      0,000286     ARRAYLIST
+ 
+Busqueda elemento inicial: 
+TEST 12 - Busqueda secuencial elemento inicial   0,000120      0,000181     ARRAYLIST
+TEST 13 - Busqueda binaria elemento inicial      0,000352      0,003883     ARRAYLIST
+TEST 14 - Buscar elemento final con funcion      0,007853      0,007623     LINKEDLIST
+ 
+Busqueda elemento final: 
+TEST 15 - Busqueda secuencial elemento final     0,014356      0,338841     ARRAYLIST
+TEST 16 - Busqueda binaria elemento final        0,000407      0,005050     ARRAYLIST
+TEST 17 - Buscar elemento intermedio con funcion 0,004476      0,006411     ARRAYLIST
+ 
+Busqueda elemento intermedio: 
+TEST 18 - Busqueda secuencial elemento intermed  0,010614      0,169480     ARRAYLIST
+TEST 19 - Busqueda binaria elemento intermedio   0,000162      0,004547     ARRAYLIST
+TEST 20 - Buscar elemento inexistent con funcion 0,007818      0,007683     LINKEDLIST
+ 
+Busqueda elemento inexistente: 
+TEST 21 - Busqueda secuencial elemento inexist   0,013797      0,339644     ARRAYLIST
+TEST 22 - Busqueda binaria elemento inexist      0,000418      0,005028     ARRAYLIST
+
+
+Método Ordenación         RANDOM m/s    ORDENADO m/s     INVERSO m/s    REPETIDO m/s   Fastest Array   TEST DE ORDEN   
+BUBBLESORT                  344,9439          0,0225        794,9537          0,0211      A.REPETIDO        ORDEN OK    
+SELECTIONSORT                 9,0390          8,5868          8,7575          8,9147      A.ORDENADO        ORDEN OK    
+INSERTIONSORT               166,8177          0,5832        392,6452          0,5907      A.ORDENADO        ORDEN OK    
+QUICKSORT                     3,1777          5,6252          6,2307          6,6574      A.ORDENADO        ORDEN OK    
+MERGESORT                     0,8027          0,6415          0,6495          0,6421      A.ORDENADO        ORDEN OK    
+Fastest x Ordenacion       MERGESORT       MERGESORT       MERGESORT       MERGESORT 
+
+BUSQUEDAS:
+BUSQUEDA BINARIA          0,00000000       0,00109846       0,00000000       0,00000000       Solo sobre A.Ordenados --> BUSQUEDA SECUENCIAL más rápida
+BUSQUEDA SECUENCIAL       0,01131956       0,00040032       0,01477898       0,01448126       A.ORDENADO  
+
+
+BUILD SUCCESSFUL (total time: 3 minutes 5 seconds)
