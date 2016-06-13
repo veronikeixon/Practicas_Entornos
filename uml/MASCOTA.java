@@ -23,6 +23,16 @@ public class MASCOTA_PACIENTE {
     float peso_actual;
     float peso_medio;
     float[] pesos; 
+	HIST_MEDICO[] = new HIST_MEDICO();
+	CALENDARIO_VAC[] = new CALENDARIO_VAC();
+	
+	
+	public add_HIST_MEDICO (HIST_MEDICO visita){
+		this.HIST_MEDICO=visita;
+	}
+	public add_CALENDARIO_VAC (CALENDARIO_VAC vacuna){
+		this.CALENDARIO_VAC=vacuna;
+	}
 
     public MASCOTA_PACIENTE(String cod_masc, String alias, String especie, String raza, String color_pelo, float peso_actual) {
         this.cod_masc = cod_masc;

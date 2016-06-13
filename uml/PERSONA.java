@@ -11,8 +11,8 @@ package vet;
  */
 public class PERSONA {
     
-    String dni;
-    String nombre;
+    public String dni;
+    public String nombre;
     
     public PERSONA(String dni, String nombre) {
         this.dni = dni;

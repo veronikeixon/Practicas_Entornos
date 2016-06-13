@@ -16,7 +16,11 @@ public class HIST_MEDICO {
     LocalDate fecha_visita;
     ENFERMEDAD enfermedad;
     
-    public HIST_MEDICO(LocalDate fecha_visita, ENFERMEDAD enfermedad) {
+    public add_enfermedad(ENFERMEDAD enfermedad){
+		this.ENFERMEDAD=enfermedad;
+	}
+	
+	public HIST_MEDICO(LocalDate fecha_visita, ENFERMEDAD enfermedad) {
         this.fecha_visita = fecha_visita;
         this.enfermedad = enfermedad;
     }

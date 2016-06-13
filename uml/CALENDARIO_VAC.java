@@ -16,6 +16,10 @@ public class CALENDARIO_VAC {
     LocalDate fecha_vac;
     ENFERMEDAD enfermedad;
 
+	public add_enfermedad(ENFERMEDAD enfermedad){
+		this.ENFERMEDAD=enfermedad;
+	}
+	
     public CALENDARIO_VAC(LocalDate fecha_vac, ENFERMEDAD enfermedad) {
         this.fecha_vac = fecha_vac;
         this.enfermedad = enfermedad;
