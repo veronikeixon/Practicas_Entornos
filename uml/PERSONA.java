@@ -13,35 +13,9 @@ public class PERSONA {
     
     public String dni;
     public String nombre;
-    
-    public PERSONA(String dni, String nombre) {
-        this.dni = dni;
-        this.nombre = nombre;
-    }
-    
-    public void addPERSONA(String dni, String nombre) {
-        this.dni = dni;
-        this.nombre = nombre;
-    }
-
-public void delPERSONA(String dni, String nombre) {
-
-    }
-
-    
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
+    public List<CLIENTE> cliente=new CLIENTE();
 }
+
+	public add_cliente (CLIENTE cliente){
+		this.CLIENTE=cliente;
+	}
